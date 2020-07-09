@@ -13,9 +13,8 @@ This is an application for search and view your favourite pokemons.
 ## Base dependencies
 
 
-- [Redux](https://redux.js.org/) for state management.
 - [React devtools](https://chrome.google.com/webstore/detail/react-developer-tools/) extension for debbuging.
-- [Styled](https://react-bootstrap.github.io/) components for styling.
+- [Bootstrap](https://react-bootstrap.github.io/) components for styling.
 
 
 ## Installation
