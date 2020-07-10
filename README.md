@@ -15,7 +15,7 @@ This is an application for search and view your favourite pokemons.
 
 - [React devtools](https://chrome.google.com/webstore/detail/react-developer-tools/) extension for debbuging.
 - [Bootstrap](https://react-bootstrap.github.io/) components for styling.
-
+- [Jest](https://jestjs.io/) for testing.
 
 ## Installation
 
@@ -35,7 +35,14 @@ npm start (http://localhost:3000/)
 Insert name your pokemon, click search
 
 
+## Testing
 
+Simple API check testing calling a test funcion on src/store/services.
+
+bash
+cd FlyDevsChallenge
+
+npm run test
 
 
 
