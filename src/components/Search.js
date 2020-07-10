@@ -28,6 +28,7 @@ export default function Search(props) {
               {" "}
               Search{" "}
             </Button>
+            <h4>{search}</h4>
           </Col>
         </Form.Row>
       </Form>

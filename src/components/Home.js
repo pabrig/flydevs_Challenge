@@ -53,14 +53,14 @@ export default function Home() {
         
           <h2 className="text-center text-white">
             <img src={Logo} className="mr-1"/>
-          Pokemon Finder</h2>
+          Finder </h2>
         </Navbar.Brand>
       </Navbar>
       {error ? <Alert variant="danger" className="m-2">{errorMessage} </Alert> : null}
-      <Search  style={spinnerStyle} className=".bg-dark" getPoke={getPoke} />
+      <Search  style={spinnerStyle} className=".bg-dark" getPoke={getPoke} />    
       {loading ? (
         <div style={{ textAlign: "center", marginTop: "2rem" }}>
-          <Spinner animation="border" variant="warning" />
+          <Spinner animation="border" variant="dark" />
         </div>
       ) : null}
       {!loading && pokemon ? (
