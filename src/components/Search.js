@@ -14,7 +14,7 @@ export default function Search(props) {
           <Col sm={10}>
             <Form.Control
               onChange={(e) => setSearch(e.target.value)}
-              className="mt-2  border-dark mb-8 readonly"
+              className="form-control mt-2  border-dark mb-8 readonly"
               placeholder="Search your Pokemon"
             />
           </Col>
