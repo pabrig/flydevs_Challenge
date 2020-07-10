@@ -37,12 +37,12 @@ Insert name your pokemon, click search
 
 ## Testing
 
-Simple API check testing calling a test funcion on src/store/services.
+Simple API check testing.
 
 bash
-cd FlyDevsChallenge
+cd flydevs_Challenge
 
-npm run test
+npm r test
 
 
 
