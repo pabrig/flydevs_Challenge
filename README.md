@@ -1,4 +1,4 @@
-# FlyDevs_Challenge
+# PokeApp
 
 This is an application for search and view your favourite pokemons.
 
